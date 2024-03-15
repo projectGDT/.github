@@ -41,6 +41,17 @@
 - [ ] 白名单
 - [ ] 玩家加群自动审批
 
+### 启动器
+
+- [ ] 基于 Rust 和 [Tauri](https://tauri.app/) 的 Minecraft 启动器
+
+### 延伸功能
+
+- [ ] Java 版离线账户免认证自动进服
+- [ ] Mod 服自动下载和更新整合包
+- [ ] 部分兼容 PCL2
+- [ ] 查看玩家在线时长、背包、统计数据等 
+
 ## 模块与所用技术
 
 ### 网站前端 ([gdt-frontend](https://github.com/projectGDT/gdt-frontend))
@@ -68,27 +79,3 @@ projectGDT 的后台，承担了维护玩家与服务器数据、认证、响应
 **语言**：Java
 
 **框架**：[Spigot](https://spigotmc.org/)
-
-### Bot (gdt-bot)
-
-QQ 机器人，用于监听群成员列表，保持与后端的同步。
-
-**语言**：C#
-
-**框架**：[Lagrange.Core](https://github.com/LagrangeDev/Lagrange.Core)
-
-以上是软设比赛终审之前将要完成的部分。
-
----
-
-## We won't stop here!
-
-此项目将会继续开发，预计将在暑假完成后续工作并部署。
-
-以下是比赛结束后将继续实现的内容：
-
-- [ ] Java 版离线账户免认证自动进服
-- [ ] Mod 服自动下载和更新整合包
-- [ ] 部分兼容 PCL2
-- [ ] 基于 Rust 和 [Tauri](https://tauri.app/) 的 Minecraft 启动器
-- [ ] 查看玩家在线时长、背包、统计数据等
